@@ -1,0 +1,55 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Centrer horizontalement le contenu */
+  align-items: center; /* Centrer verticalement le contenu */
+}
+
+.home-section {
+  width: 80%;
+  display: flex; /* Utilisation de flexbox */
+}
+
+.images-section {
+  width: 55%; /* Ajustez la largeur de l'image selon vos besoins */
+  background-image: url(home-phone-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.login-section {
+  width: 45%; /* Ajustez la largeur du formulaire selon vos besoins */
+  padding: 20px; /* Ajoutez un peu d'espace autour du formulaire */
+  box-sizing: border-box; /* Pour inclure les espaces de remplissage dans la largeur */
+}
+
+/* Reste du CSS inchangé */
+.card-img-top {
+  max-width: 50%;
+  align-self: center;
+}
+
+.line-text {
+  padding: 0 .5rem;
+  font-size: small;
+  margin: 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: rgb(139, 137, 137);
+}
+
+.facebook {
+  max-width: 2rem; /* Modifiez la valeur selon vos besoins */
+  height: auto;
+  margin-right: .5rem;
+}
